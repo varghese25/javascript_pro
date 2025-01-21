@@ -1,4 +1,4 @@
-// /*pop box called alert Day1*/ 
+// /*pop box called alert Day1 Select by id*/ 
 alert("Hi Varghese Baby Welcome TTM Site");
 
 

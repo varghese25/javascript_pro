@@ -1,11 +1,44 @@
+<!--Day 2-->
+<!--DOM - Select By Tag Name:-->
+
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
+<html>
+	<head> 
+		<!-- <script type="text/javascript" src="demo.js"> </script> -->
+<style>
+input{width:40%;height:50px;}
+h2, p
+{
+color:blue;
+}
+button
+{
+width:40%; 
+height:50px; 
+background-color: black; 
+color: yellow; 
+}
+</style>
+</head>	 
 <body>
-    
+<h2> Select By Tag Name எடுத்துக்காட்டு</h2>
+<input placeHolder="Enter City Name"> இல் இருந்து<br>
+<input placeHolder="Enter City Name"> வரை<br>
+<input placeHolder="Enter City Name"> இடைத்தங்கல்<br>
+<button onclick="getCityName()"> Submit </button>
+<p> </p>
+<p> </p>
+<p> </p>
+	<script>
+		function getCityName()
+	{
+	cityNamesInput = document.getElementsByTagName("input")
+	cityNamesOutput = document.getElementsByTagName("p")
+	cityNamesOutput[0].innerHTML =cityNamesInput[0].value
+	cityNamesOutput[1].innerHTML =cityNamesInput[1].value
+	cityNamesOutput[2].innerHTML =cityNamesInput[2].value
+	}
+		
+	</script>
 </body>
 </html>
