@@ -1,6 +1,10 @@
 ## JavaScript <!--Day2 21-01-2025-->
 
 
+JS is dynamically typed language (instant result displayed in Chrome browser -> inspect->console) also function language reason is doesn't need class.
+
+Java & c Statically typed language
+
 
 
 
