@@ -1,3 +1,42 @@
+## JavaScript <!--Day4 23-01-2025-->
+
+Function perform well defined task 
+example
+Console.log("Hello World");
+>Math.sqrt(55) // argument or parameter passed , when we call math.sqrt 
+<7.416 // return value 
+
+
+LengthConvert Code we have give function 
+
+DOM: Document object model
+
+Document is in tree structure inside every element is called Node.
+
+#Document is root other child
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">  <!-- Elemet is called node-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Elemet is called node-->
+    <link rel="stylesheet" href="/logic/style.css"> <!-- Elemet is called node-->
+    <script src="/logic/script.js"></script> <!-- Elemet is called node-->
+    <title>Java Script Training</title> <!-- Elemet is called node-->
+</head> <!-- Elemet is called node-->
+<body> <!-- Elemet is called node-->
+    <h1 id="message"></h1> <!-- Elemet is called node-->
+    <script> <!-- Elemet is called node-->
+       
+    // Internal Script 
+
+    </script> <!-- Elemet is called node-->
+</body> <!-- Elemet is called node-->
+
+</html> <!-- Elemet is called node-->
+
+
+
+
 ## JavaScript <!--Day2 21-01-2025-->
 
 

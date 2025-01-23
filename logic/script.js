@@ -27,6 +27,6 @@
     // let ticket = prompt("How manu tickets do you want..?"); // data stored in the variable ticket 
     // console.log("You want pay",Number(ticket)*20 ); // Number() is a function that converts string to number
 
-    let a = prompt("Enter a number..?");
-    console.log(Number(a)+10);
+    // let a = prompt("Enter a number..?");
+    // console.log(Number(a)+10);
     //----------------------------------------------------------------

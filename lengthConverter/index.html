@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/lengthConverter/style.css">
+    <title>Length Converter</title>
+</head>
+<body>
+    <div id="wrapper">
+    <h2>Centimeter to Inches</h2>
+<input type="text" id="input" placeholder="Length in Centimeter">
+    <div>
+        <div>
+            <button type="submit" onclick="convert()">Convert to Inches</button> <!-- Onclick & add function when to give result because function not give it when page loads afterward if 10cm it be o result-->
+        </div>
+        <div id="result">
+        </div>
+
+        <!--user gives value it conver to inch but-->
+        <script>
+            function convert()
+            {
+           const cmValue = Number(document.getElementById("input").value)
+           const inchValue = cmValue/2.54
+           const result = document.getElementById("result")
+           result.innerHTML= inchValue.toFixed(2) + " Inches";
+            }
+        </script>
+</body>
+</html>

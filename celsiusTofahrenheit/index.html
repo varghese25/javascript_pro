@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Celsius To Fahrenheit</title>
+    <link rel="stylesheet" href="/lengthConverter/style.css"> <!-- Link to css file of lengthConverter -->
+</head>
+<body>
+    <div id="wrapper">
+    <h2>Celsius to Fahrenheit</h2>
+    <div>
+        <input type="text" id="input" placeholder="Temperature in Celsius">
+        <div>
+            <button type="submit" onclick="convert()">Convert to Fahrenheit</button> <!-- Onclick & add function when to give result because function not give it when page loads afterward if 10cm it be o result-->
+    <di id="result">
+        
+    </di>
+        </div>
+    <script>
+        function convert()
+        {
+            const celsiusValue = Number(document.getElementById("input").value)
+            const fahrenheitValue = (celsiusValue * 9/5) + 32
+            const result = document.getElementById("result")
+            result.innerHTML= fahrenheitValue.toFixed(2) + " Fahrenheit";
+        }
+    </script>
+</body>
+</html>
