@@ -21,7 +21,7 @@
         function convert()
         {
             const celsiusValue = Number(document.getElementById("input").value)
-            const fahrenheitValue = (celsiusValue * 9/5) + 32
+            const fahrenheitValue = (celsiusValue * 9/5) + 32 // Formula to convert celsius to fahrenheit
             const result = document.getElementById("result")
             result.innerHTML= fahrenheitValue.toFixed(2) + " Fahrenheit";
         }
