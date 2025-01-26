@@ -33,8 +33,8 @@
 
     // Day 5
 
-    let st1 = "Hello Welcom to the world of JavaScript "; // string index starts from 0.
-    let st2 = "Learning JavaScript is fun";// string index starts from 0.
+    // let st1 = "Hello Welcom to the world of JavaScript "; // string index starts from 0.
+    // let st2 = "Learning JavaScript is fun";// string index starts from 0.
 
     //Google Console st1.concat(st2)  .concat means dot means invoking a function;
     //Google Console st1 + st2;
@@ -150,4 +150,36 @@ search ('JavaScript') word in the string
 
 
  */ 
-let name = "Tiju";
+// let name = "Tiju";
+
+// ----------------------------------------------------------------------------------------
+// Day 6 Template Literals (backticks belwo esc key ``)
+
+// let firstName = "Varghese ";
+// let lastName = "Baby";
+// let city = "Kitchener";
+
+// console.log(firstName + lastName + " Lives in " + city); // concatenation
+
+// backticks `` Two ways we can use template literals
+// let msg = `${firstName} ${lastName}${city}`;  // template literals 
+
+
+// console.log(`${firstName} ${lastName} lives in ${city}`); // Sting interpolation
+
+//multiline string Using backticks
+// let msg = `hello Varghese Baby how are you`
+// console.log(msg);
+
+//  single and double quotes in the string using backticks
+
+// let msg = `my name is 'Tiju' and I am a "Developer"`;
+// console.log(msg);
+
+// Exercise 1 bactick and template literals
+let itemCount = 5;
+let total =  95; 
+let msg = (`You have ${itemCount} items in your cart. Your bill amount is $${total}`); 
+console.log(msg);
+
+// ----------------------------------------------------------------------------------------
