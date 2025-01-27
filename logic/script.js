@@ -177,9 +177,96 @@ search ('JavaScript') word in the string
 // console.log(msg);
 
 // Exercise 1 bactick and template literals
-let itemCount = 5;
-let total =  95; 
-let msg = (`You have ${itemCount} items in your cart. Your bill amount is $${total}`); 
-console.log(msg);
+// let itemCount = 5;
+// let total =  95; 
+// let msg = (`You have ${itemCount} items in your cart. Your bill amount is $${total}`); 
+// console.log(msg);
 
 // ----------------------------------------------------------------------------------------
+
+
+// Day7 27-01-2025 Arrays
+// Arrays
+// let num = 10
+// let name = "Varghese"
+
+// let cities = ["Kitchener", "Toronto", "Waterloo", "Cambridge", "Guelph"];
+// let marks = [10, 20, 30, 40, 50, 60, 70, 80, 90, 100];
+
+// length of the array
+// console.log(cities.length);
+
+
+// length of the array
+// console.log(marks.length); 
+
+// Accessing the elements of the array
+// console.log(cities[0]); // Kitchener
+
+// last element of the array
+// let lastMark = marks[marks.length - 1]; 
+//  console.log(lastMark); // 100
+
+
+ // mix of int and string in the array
+//  let mix = [10, "Varghese", 20, "Baby", [3,4]]; // Array length is 4 
+//   console.log(mix); // [10, "Varghese", 20, "Baby"]
+
+
+// let mix = [10, "Varghese", 20, "Baby", [3,4]]; // Array length is 5
+//   console.log(mix); // (5) [10, 'Varghese', 20, 'Baby', Array(2)]
+//   console.log(mix[4]); // [3,4]
+//   console.log(mix[4][0]); // 3
+//   console.log(mix[4][1]); // 4
+
+// 2D Array
+
+// let matrix = [[1,2,3], [4,5,6], [7,8,9]];
+// console.log(matrix[0]); // [1,2,3]
+// console.log(matrix[1]); // [4,5,6]
+// console.log(matrix[2]); // [7,8,9]
+// console.log(matrix[0][0,1]); // 1
+// console.log(matrix[2][2]) // 9
+
+// Array Methods
+let array =['a','b','c','d','e'];
+
+// push - add element at the end of the array
+array.push('f');
+console.log(array); // ['a','b','c','d','e','f']
+
+// pop - remove element from the end of the array returns the removed element Value
+console.log(array.pop()); // ['a','b','c','d','e','f']
+
+
+//shift - remove element from the start of the array returns the removed  element Value
+console.log(array.shift()); // ['b','c','d','e','f']
+
+// unshift - add element at the start of the array
+array.unshift('a');
+console.log(array); // ['a','b','c','d','e','f']
+
+
+// delete element from the array. It will not change the length of the array
+//  but it will make the element empty it wont shift the elements not use this method.
+
+// delete array[2];
+// console.log(array); // ['a','b',empty,'d','e','f']
+
+
+// splice - add or remove elements from the array
+// array.splice(2,1) // 2 is index of "c"  and 1 is the number of elements to be removed ['a','b','d','e','f'] 
+
+array.splice(2,1); // remove 1 element from the 2nd index
+console.log(array); // ['a','b','d','e','f']
+
+array.splice(2,0,'c'); // add 'c' at the 2nd index
+console.log(array); // ['a','b','c','d','e','f']
+
+array.splice(2,2,'x','y'); // remove 2 elements from the 2nd index and add 'x' and 'y'
+console.log(array); // ['a','b','x','y','e','f']
+
+
+array.splice(2,2,'c','d'); // remove 2 elements from the 2nd index and add 'c' and 'd'
+console.log(array); // ['a','b','c','d','e','f']
+

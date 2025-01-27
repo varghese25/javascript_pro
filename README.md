@@ -1,4 +1,53 @@
-## JavaScript <!--Day4 23-01-2025-->
+## JavaScript
+ <!--Day7 27-01-2025-->
+- Array index start from 0 
+ - let marks = [10, 20, 30, 40, 50, 60, 70, 80, 90, 100]; Array length is 10
+
+
+
+
+
+
+## Example 1 mix of int and string in the array
+ let mix = [10, "Varghese", 20, "Baby"];  
+  console.log(mix); 
+
+- Console Out Put below 
+(4) array length [10, 'Varghese', 20, 'Baby']
+0 index:10 
+1 index: "Varghese"
+2 index: 20
+3 index: "Baby"
+length:4
+
+
+## Example 2  mix of int and string in the array
+
+
+- let mix = [10, "Varghese", 20, "Baby", [3,4]]; // Array length is 5
+  console.log(mix); // (5) [10, 'Varghese', 20, 'Baby', Array(2)]
+
+- Console Out Put below 
+  (5) [10, 'Varghese', 20, 'Baby', Array(2)]
+0 index: 10
+1 index: "Varghese"
+2 index: 20
+3 index: "Baby"
+4 index: (2) 
+0 index: 3
+1 index: 4
+length: 
+2
+length: 5
+
+
+
+
+
+
+
+
+ <!--Day4 23-01-2025-->
 
 Function perform well defined task 
 example
