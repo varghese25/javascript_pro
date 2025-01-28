@@ -186,6 +186,7 @@ search ('JavaScript') word in the string
 
 
 // Day7 27-01-2025 Arrays
+
 // Arrays
 // let num = 10
 // let name = "Varghese"
@@ -270,3 +271,42 @@ console.log(array); // ['a','b','x','y','e','f']
 array.splice(2,2,'c','d'); // remove 2 elements from the 2nd index and add 'c' and 'd'
 console.log(array); // ['a','b','c','d','e','f']
 
+
+
+// Day 8 28-01-2025
+
+//slice (starting index, ending index) 
+// ending index not included
+console.log(array.slice(1,4)); // ['b','c','d']
+
+
+
+// reverse
+
+array.reverse();
+console.log(array) // ['f','e','d','c','b','a']
+
+
+// join converts array to string
+let str = array.join('-'); // any special character can be used to join the elements of the array. wihtout any special character it will join with comma  
+console.log(str); // f-e-d-c-b-a
+
+
+//split converts string to array
+let str1 = "a,b,c,d,e,f"; // string
+console.log(str1.split(',')); // ['a','b','c','d','e','f'] returns an array
+
+
+
+// concat and (...spread) operator
+let firstArray = [1,2,3];
+let secondArray = [4,5,6];
+
+// let thirdArray = firstArray.concat(secondArray); // Concat [1,2,3,4,5,6] // it will be 1d array
+// console.log(thirdArray);
+
+let thirdArray = [...firstArray,...secondArray] // spread [1,2,3,4,5,6] // it will be 1d array
+console.log(thirdArray);
+
+// // let thirdArray = [firstArray,secondArray] // [[1,2,3],[4,5,6]] // here it will be 2Darrays
+// console.log(thirdArray);  
