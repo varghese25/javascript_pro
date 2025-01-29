@@ -1,12 +1,26 @@
 ## JavaScript
+
+FD Rate Calcuator   <!--Day8 28-01-2025-->
+
+<!-- Condition
+Fd rates
+<3 months - 5.8 %
+3-6 months - 6.5%
+7-9 months - 6.8%
+>= 10 months - 7%
+get tenure months as input and display the FD rate as output 
+-->
+
+
+
+
+
+
+
+
  <!--Day7 27-01-2025-->
 - Array index start from 0 
  - let marks = [10, 20, 30, 40, 50, 60, 70, 80, 90, 100]; Array length is 10
-
-
-
-
-
 
 ## Example 1 mix of int and string in the array
  let mix = [10, "Varghese", 20, "Baby"];  
