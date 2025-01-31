@@ -1,15 +1,27 @@
 ## JavaScript
 
-FD Rate Calcuator   <!--Day8 28-01-2025-->
 
-<!-- Condition
+## Day9 31-01-2025
+City Stats 
+
+ - Major city population , literacyRate, language. Using drop down , Event Listener, fucnction & Switch Case statement
+ simple cityStatTool
+
+ 7:54 Ref 
+
+
+
+  ## Day8 28-01-2025
+ - FD Rate Calcuator 
+
+ Condition
 Fd rates
 <3 months - 5.8 %
 3-6 months - 6.5%
 7-9 months - 6.8%
 >= 10 months - 7%
 get tenure months as input and display the FD rate as output 
--->
+
 
 
 
