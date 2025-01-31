@@ -7,10 +7,8 @@ City Stats
  - Major city population , literacyRate, language. Using drop down , Event Listener, fucnction & Switch Case statement
  simple cityStatTool
 
- 7:54 Ref 
 
-
-
+ Cont 7:54 Selected value from dropdown
   ## Day8 28-01-2025
  - FD Rate Calcuator 
 
