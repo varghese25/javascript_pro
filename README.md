@@ -1,5 +1,54 @@
 ## JavaScript
 
+# Javascript Topics
+
+## Introduction
+- **Duration**: 1
+- **Sub Topics**:
+  - Variables
+  - Data Types
+
+## Operators
+- **Duration**: 2
+- **Sub Topics**:
+  - Arithmetic Operators
+  - Assignment Operators
+  - Scope
+
+## Function
+- **Duration**: 1
+- **Sub Topics**:
+  - Objects
+  - Arrow Functions
+
+## String Methods
+- **Methods**:
+  - `length()`
+  - `slice()`
+  - `substring()`
+  - `substr()`
+  - `replace()`
+  - `toLowerCase()` & `toUpperCase()`
+  - `concat()`
+  - `trim()`
+  - `padStart()`
+  - `padEnd()`
+  - `charAt()`
+  - `charCodeAt()`
+  - `split()`
+
+## String Search Methods
+- **Methods**:
+  - `indexOf()`
+  - `lastIndexOf()`
+  - `search()`
+  - `match()`
+
+
+
+
+
+
 
 ## Day9 31-01-2025
 City Stats 
@@ -8,7 +57,14 @@ City Stats
  simple cityStatTool
 
 
- Cont 7:54 Selected value from dropdown
+ ## Day10 05-02-2025 
+ Cont 7:54 Selected value from dropdown 
+
+
+
+
+
+
   ## Day8 28-01-2025
  - FD Rate Calcuator 
 

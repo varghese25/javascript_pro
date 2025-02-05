@@ -1,7 +1,7 @@
 
 
 // if else - conditional Statements
-let pwd_correct = true;
+let pwd_correct = false;
 
 if (pwd_correct) {
     console.log("You are logged in");
@@ -17,7 +17,7 @@ console.log("bye")
 // comparison operators: ==, ===, !=, !==, >, <, >=, <=
 // logical operators: &&, ||, !
 
-age = 18;
+age = 17;
 // voter_id = false;
 voter_id = true;
 

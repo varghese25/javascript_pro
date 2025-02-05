@@ -22,7 +22,11 @@ const button =  document.querySelector('button') // drictly we give button
 button.addEventListener('click',displayStats) // element is button we add eventLisenter. event is 'click'. if click event takes place call the displayStats function
 function displayStats() { // defining the displayStats function. when click event triggers this displayStats function called and what all Jobs to done going to write here. 
     
-    // console.log('clicked') just to check function is working when button clicked
-    const input = document.getElementById("input") 
+    //  console.log('clicked') /*just to check function is working when button clicked  in google inspect console*/
+    const input = document.getElementById("input")  // drop down input html
+    const city = input.options[input.selectedIndex].value // city is variable
+
+    /*checking city wheather choosen city displaying inforamtion*/
+    console.log(city) // Yet 2 continue
 }
 

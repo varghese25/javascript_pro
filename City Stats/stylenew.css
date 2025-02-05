@@ -1,0 +1,14 @@
+html,
+body{
+   margin: 0;
+   font-family: 'Poppins', sans-serif;
+   background-color: brown;
+}
+
+h1, h3{
+ color: blue;
+}
+
+h2{
+    color: chartreuse;
+}
