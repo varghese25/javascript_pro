@@ -1,6 +1,44 @@
 ## JavaScript
 
 
+-- https://www.codechef.com/learn/course/java/DEBUGJBEG/problems/DEBUGJP11?tab=statement
+
+- Object : 
+   Properties & Methods
+
+
+
+- Exp  Computer: "Properties" are  Make,color,ScreenSize,RAM
+               "Methods" : Things it can do like  browse,buildPorjects,Play,Games,Watchmovies   
+
+
+
+             ## Object / method / Function 
+
+              
+item ={  Object
+    name: 'Google phone',
+    quantity: 1,
+    price: 50000,
+
+    buy: function() { method
+        console.log('item add to cart')
+    }
+
+}
+item.buy()  function buy is called Method because its inside the item (Object) . Using Object Invoked method.
+
+if buy function writen outSide (object) is called function
+buy: function() { Function
+        console.log('item add to cart')
+}
+
+}
+
+
+
+
+
 - JavaScript (JS) is a cross-platform, object-oriented programming language used by developers to make web pages interactive. It allows developers to create dynamically updating content, use animations, pop-up menus, clickable buttons, control multimedia, etc.
 
 # Javascript Topics
