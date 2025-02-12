@@ -1,6 +1,18 @@
 ## JavaScript
 
 
+## 11-02-2025
+- JavaScript is the Programming Language for the Web.
+
+- JavaScript can update and change both HTML and CSS.
+
+- JavaScript can calculate, manipulate and validate data.
+
+ECMAScript 5 stands for "ECMA Script Version 5", where ECMA refers to the European Computer Manufacturers Association. ECMAScript is the standardized scripting language specification on which JavaScript is based.
+
+<------------------------------------------------------------------------------------------------->
+
+
 -- https://www.codechef.com/learn/course/java/DEBUGJBEG/problems/DEBUGJP11?tab=statement
 
 - Object : 
