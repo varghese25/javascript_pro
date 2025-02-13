@@ -1,6 +1,44 @@
 ## JavaScript
 
 
+https://edabit.com/challenges/javascript 
+
+## Loop - for ..of / for ..in only in JavaScript. 
+ 
+
+console.log("Heading: for ...of loop");
+// for ...of
+
+let tijuArray = ['evan','shannon','serah','varghese'] // tijuArry is variable where name stored
+for(i=0; i<tijuArray.length; i++) // arrary length is 4
+  console.log(tijuArray[i].toUpperCase()) // i list nameArray names in upperCase
+
+
+
+console.log("Heading Example: for ...of loop");
+  for(let nameList of tijuArray) // nameList variable where list of name stored
+    console.log(nameList)
+
+
+
+    console.log("Heading Example: for ...in loop");
+
+    // for ..in
+
+
+    // object
+    item={
+      name:'phone',
+      Quantity:'1',
+      price:25000
+    }
+
+for(let tiju in item) // tiju is variable object item stored
+  console.log(item[tiju]) // to access item give [tiju]
+
+<---------------------------------------------------------------------------------------------------->
+
+
 ## 11-02-2025
 - JavaScript is the Programming Language for the Web.
 
