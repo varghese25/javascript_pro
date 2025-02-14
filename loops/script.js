@@ -64,35 +64,31 @@ for (i = 1; i <= 10; i++) {
   console.log(i);
 }
 
-
-
-
 console.log("Heading: for ...of loop");
 // for ...of
 
-let tijuArray = ['evan','shannon','serah','varghese'] // tijuArry is variable where name stored
-for(i=0; i<tijuArray.length; i++) // arrary length is 4
-  console.log(tijuArray[i].toUpperCase()) // i list nameArray names in upperCase
-
-
+let tijuArray = ["evan", "shannon", "serah", "varghese"]; // tijuArry is variable where name stored
+for (
+  i = 0;
+  i < tijuArray.length;
+  i++ // arrary length is 4
+)
+  console.log(tijuArray[i].toUpperCase()); // i list nameArray names in upperCase
 
 console.log("Heading Example: for ...of loop");
-  for(let nameList of tijuArray) // nameList variable where list of name stored
-    console.log(nameList)
+for (let nameList of tijuArray) // nameList variable where list of name stored
+  console.log(nameList);
 
+console.log("Heading Example: for ...in loop");
 
+// for ..in
 
-    console.log("Heading Example: for ...in loop");
+// object
+item = {
+  name: "phone",
+  Quantity: "1",
+  price: 25000,
+};
 
-    // for ..in
-
-
-    // object
-    item={
-      name:'phone',
-      Quantity:'1',
-      price:25000
-    }
-
-for(let tiju in item) // tiju is variable object item stored
-  console.log(item[tiju]) // to access item give [tiju]
+for (let tiju in item) // tiju is variable object item stored
+  console.log(item[tiju]); // to access item give [tiju]

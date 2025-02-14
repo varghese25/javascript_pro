@@ -1,25 +1,49 @@
 ## JavaScript
 
+## InterView Question 14-02-2025
 
-https://edabit.com/challenges/javascript 
+true = 1
+false = 0
 
-## Loop - for ..of / for ..in only in JavaScript. 
- 
+console.log(true+true+true\*5)
+
+true 1 \* 5 = 5
+true 1 + 1 true = 2
+
+outPut is console.log(7)
+
+
+
+##  hoisting
+- JavaScript Interpeter moves evething upWord Input writen ahead of declaration. 
+-  Dont worry about Order Of the code . Any type we can define & we can call the function any where
+
+
+- Example
+console.log('Hositing',findProductNew(6,6)); // hositig , input first 
+
+function findProductNew(a, b){ // function delecation or called as defination
+return a * b; //outPut
+}
+    
+
+
+--------------------------------------------------------
+
+https://edabit.com/challenges/javascript
+
+## Loop - for ..of / for ..in only in JavaScript.
 
 console.log("Heading: for ...of loop");
 // for ...of
 
 let tijuArray = ['evan','shannon','serah','varghese'] // tijuArry is variable where name stored
 for(i=0; i<tijuArray.length; i++) // arrary length is 4
-  console.log(tijuArray[i].toUpperCase()) // i list nameArray names in upperCase
-
-
+console.log(tijuArray[i].toUpperCase()) // i list nameArray names in upperCase
 
 console.log("Heading Example: for ...of loop");
-  for(let nameList of tijuArray) // nameList variable where list of name stored
-    console.log(nameList)
-
-
+for(let nameList of tijuArray) // nameList variable where list of name stored
+console.log(nameList)
 
     console.log("Heading Example: for ...in loop");
 
@@ -34,12 +58,12 @@ console.log("Heading Example: for ...of loop");
     }
 
 for(let tiju in item) // tiju is variable object item stored
-  console.log(item[tiju]) // to access item give [tiju]
+console.log(item[tiju]) // to access item give [tiju]
 
 <---------------------------------------------------------------------------------------------------->
 
-
 ## 11-02-2025
+
 - JavaScript is the Programming Language for the Web.
 
 - JavaScript can update and change both HTML and CSS.
@@ -50,44 +74,36 @@ ECMAScript 5 stands for "ECMA Script Version 5", where ECMA refers to the Europe
 
 <------------------------------------------------------------------------------------------------->
 
-
 -- https://www.codechef.com/learn/course/java/DEBUGJBEG/problems/DEBUGJP11?tab=statement
 
-- Object : 
-   Properties & Methods
+- Object :
+  Properties & Methods
+
+- Exp Computer: "Properties" are Make,color,ScreenSize,RAM
+  "Methods" : Things it can do like browse,buildPorjects,Play,Games,Watchmovies
+
+             ## Object / method / Function
 
 
 
-- Exp  Computer: "Properties" are  Make,color,ScreenSize,RAM
-               "Methods" : Things it can do like  browse,buildPorjects,Play,Games,Watchmovies   
-
-
-
-             ## Object / method / Function 
-
-              
-item ={  Object
-    name: 'Google phone',
-    quantity: 1,
-    price: 50000,
+item ={ Object
+name: 'Google phone',
+quantity: 1,
+price: 50000,
 
     buy: function() { method
         console.log('item add to cart')
     }
 
 }
-item.buy()  function buy is called Method because its inside the item (Object) . Using Object Invoked method.
+item.buy() function buy is called Method because its inside the item (Object) . Using Object Invoked method.
 
 if buy function writen outSide (object) is called function
 buy: function() { Function
-        console.log('item add to cart')
+console.log('item add to cart')
 }
 
 }
-
-
-
-
 
 - JavaScript (JS) is a cross-platform, object-oriented programming language used by developers to make web pages interactive. It allows developers to create dynamically updating content, use animations, pop-up menus, clickable buttons, control multimedia, etc.
 
