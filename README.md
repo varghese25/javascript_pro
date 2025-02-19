@@ -1,5 +1,36 @@
 ## JavaScript
 
+
+
+ ## 19-02-2025
+## // Method aslo a function but it is invoked with the dot.
+
+arrFamily = ["Varghese", "Serah", "Evan", "Shannon"]; // object
+arrFamily.forEach(familylist); // we  invoked  arrFamily object wiht the  dot is caled Method. called here the function familylist
+
+function familylist(namelist) { // familylist is function and namelist is argumet. 
+  console.log(namelist);
+}
+
+
+
+<!--
+Uncaught TypeError: Cannot set properties of null (setting 'innerHTML') . 
+Because in index.html file. include this (<script src="script.js"></script>)  line below. Error will go.. akka didn't mentioned in her tutorial... 
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Call Back</title>
+  </head>
+  <body>
+    <h1></h1>
+  </body>
+</html>
+<script src="script.js"></script> // include this line-->
+
 ## InterView Question 14-02-2025
 
 true = 1
