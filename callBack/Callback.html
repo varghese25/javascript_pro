@@ -43,5 +43,15 @@
       myCallback(sum); // call the mycallback fucction and pass the sum value
     }
     myCalculator(100, 200, myDisplayer); // mycalculator function is called and pass the value 100, 200, & myDisplayer function
+
+
+
+    // arrow funtion
+    myCalculator = (num1, num2, myCallback) => {  //callback function using arrow function
+      // argument pass num1, num2, & callaback function in myCalculator function
+      let sum = num1 + num2; // add two numbers . Store in sum variable
+      myCallback(sum); // call the mycallback fucction and pass the sum value
+    };
+ myCalculator(600,200,myDisplayer)
   </script>
 </html>
