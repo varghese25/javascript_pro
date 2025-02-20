@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1>JavaScript Functions</h1>
+    <h2>Function Sequence</h2>
+    <p>JavaScript functions are executed in the sequence they are called.</p>
+
+    <marquee>Shannon Benia Varghese</marquee>
+    <p id="demo"></p>
+  </body>
+  <!--// Good practice to put the script at the end of the body tag-->
+  <script>
+    // function myDisplayer(test) {
+    //   // myDisplayer is called callaback function
+    //   document.getElementById("demo").innerHTML = test; // + is used to append the test functionOne & functionTwo. If you remove + it will display functionTwo 'world'
+    // }
+
+    // function myFunctionOne() {
+    //   myDisplayer("Hello");
+    // }
+
+    // function myFunctionTwo() {
+    //   myDisplayer("World");
+    // }
+    // myFunctionOne();
+    // myFunctionTwo();
+
+    // Calculation of two numbers using Callback function
+
+    function myDisplayer(test) {
+      // myDisplayer is called callaback function.
+      document.getElementById("demo").innerHTML = test;
+    }
+
+    function myCalculator(num1, num2, myCallback) {
+      // argument pass num1, num2, & callaback function in myCalculator function
+      let sum = num1 + num2; // add two numbers . Store in sum variable
+      myCallback(sum); // call the mycallback fucction and pass the sum value
+    }
+    myCalculator(100, 200, myDisplayer); // mycalculator function is called and pass the value 100, 200, & myDisplayer function
+  </script>
+</html>
