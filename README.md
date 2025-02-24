@@ -1,6 +1,32 @@
 ## JavaScript
 
 
+## 24-02-2025
+ Memory Allocation in JS | Stack and Heap Storage | 
+ 
+  - Primitive type has Seperate  memory location
+  - Reference Type, memory location point same loction.  
+
+
+  ## Primitive DataTypes
+  - String 
+  - Number
+  - bigint
+  - Boolean
+  - undefined
+  - symbol
+  - null
+ - let a =100; // Primitive data type,  number 100 will be stored STACK MEMORY 
+ -   a =200 // 100 will be replaced by 200 in STACK MEMORY
+// Similiar for string, boolean, null, undefined, symbol, bigint
+## Reference Type
+ - Arrays
+ - Functions
+ - All Object - math,date
+ - Will be Stored in HEAP MEMORY
+
+
+
 
  ## 19-02-2025
 ## // Method aslo a function but it is invoked with the dot.
