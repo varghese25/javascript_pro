@@ -1,0 +1,17 @@
+
+[
+    {
+      "_comment": "Object Creation JSON YouTube Example Below are the Schema With same Object different rating ...",
+      "name": "varghese",
+      "subscribers": 1060,
+      "rating": 7.9,
+      "is_active": true
+    },
+
+    {
+      "name": "Serah",
+      "subscribers": 5,
+      "rating": null,
+      "is_active": false
+    }
+]

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script type="text/javascript">
+
+        // backTick used it wil change to string . 
+        // if i remove the backTick it will become object
+        let channels = `
+        [
+            {
+                "_comment": "Object Creation JSON YouTube Example Below are the Schema With same Object different rating ...",
+                "name": "varghese",
+                "subscribers": 1060,
+                "rating": 7.9,
+                "is_active": true
+            },
+
+            {
+                "name": "Serah",
+                "subscribers": 5,
+                "rating": null,
+                "is_active": false
+            }
+        ]`;
+
+        console.log(channels) // 
+        console.log(JSON.parse(channels)) //  I can convert to  from String to object.
+    </script>
+</head>
+
+<body>
+
+    <h1>
+        JSON - TUTORIAL Example 1
+    </h1>
+
+    <h3>
+        Please right click the browser Inspect Find the OutPut Console
+    </h3>
+
+</body>
+
+</html>
