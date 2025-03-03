@@ -27,8 +27,12 @@
             }
         ]`;
 
-        console.log(channels) // 
-        console.log(JSON.parse(channels)) //  I can convert to  from String to object.
+        console.log(channels) // String
+        console.log(JSON.parse(channels)) //  converted to  from String to object.
+        console.log(JSON.parse(channels)[0]) // Particular Row Accessed to get data
+        console.log(JSON.parse(channels)[0].name) // 0th row .name is Varghese.
+        console.log(JSON.parse(channels)[1].rating) // 1st row rating , it null
+        // similary we can access anything using JSON.parse to convert from string to object
     </script>
 </head>
 
