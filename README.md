@@ -1,48 +1,54 @@
 ## JavaScript
 
+## 04-03-2025
+
+Promise:A Promise is in one of these states: (Promise Code Folder)
+
+- pending: initial state, neither fulfilled nor rejected.
+- fulfilled: meaning that the operation was completed successfully.
+- Rejected: meaning that the operation failed.
 
 ## 24-02-2025
- Memory Allocation in JS | Stack and Heap Storage | 
- 
-  - Primitive type has Seperate  memory location
-  - Reference Type, memory location point same loction.  
 
+Memory Allocation in JS | Stack and Heap Storage |
 
-  ## Primitive DataTypes
-  - String 
-  - Number
-  - bigint
-  - Boolean
-  - undefined
-  - symbol
-  - null
- - let a =100; // Primitive data type,  number 100 will be stored STACK MEMORY 
- -   a =200 // 100 will be replaced by 200 in STACK MEMORY
-// Similiar for string, boolean, null, undefined, symbol, bigint
+- Primitive type has Seperate memory location
+- Reference Type, memory location point same loction.
+
+## Primitive DataTypes
+
+- String
+- Number
+- bigint
+- Boolean
+- undefined
+- symbol
+- null
+- let a =100; // Primitive data type, number 100 will be stored STACK MEMORY
+- a =200 // 100 will be replaced by 200 in STACK MEMORY
+  // Similiar for string, boolean, null, undefined, symbol, bigint
+
 ## Reference Type
- - Arrays
- - Functions
- - All Object - math,date
- - Will be Stored in HEAP MEMORY
 
+- Arrays
+- Functions
+- All Object - math,date
+- Will be Stored in HEAP MEMORY
 
+## 19-02-2025
 
-
- ## 19-02-2025
 ## // Method aslo a function but it is invoked with the dot.
 
 arrFamily = ["Varghese", "Serah", "Evan", "Shannon"]; // object
-arrFamily.forEach(familylist); // we  invoked  arrFamily object wiht the  dot is caled Method. called here the function familylist
+arrFamily.forEach(familylist); // we invoked arrFamily object wiht the dot is caled Method. called here the function familylist
 
-function familylist(namelist) { // familylist is function and namelist is argumet. 
-  console.log(namelist);
+function familylist(namelist) { // familylist is function and namelist is argumet.
+console.log(namelist);
 }
 
-
-
 <!--
-Uncaught TypeError: Cannot set properties of null (setting 'innerHTML') . 
-Because in index.html file. include this (<script src="script.js"></script>)  line below. Error will go.. akka didn't mentioned in her tutorial... 
+Uncaught TypeError: Cannot set properties of null (setting 'innerHTML') .
+Because in index.html file. include this (<script src="script.js"></script>)  line below. Error will go.. akka didn't mentioned in her tutorial...
 
 <!doctype html>
 <html lang="en">
@@ -69,23 +75,19 @@ true 1 + 1 true = 2
 
 outPut is console.log(7)
 
+## hoisting
 
-
-##  hoisting
-- JavaScript Interpeter moves evething upWord Input writen ahead of declaration. 
--  Dont worry about Order Of the code . Any type we can define & we can call the function any where
-
+- JavaScript Interpeter moves evething upWord Input writen ahead of declaration.
+- Dont worry about Order Of the code . Any type we can define & we can call the function any where
 
 - Example
-console.log('Hositing',findProductNew(6,6)); // hositig , input first 
+  console.log('Hositing',findProductNew(6,6)); // hositig , input first
 
 function findProductNew(a, b){ // function delecation or called as defination
-return a * b; //outPut
+return a \* b; //outPut
 }
-    
 
-
---------------------------------------------------------
+---
 
 https://edabit.com/challenges/javascript
 
@@ -140,8 +142,6 @@ ECMAScript 5 stands for "ECMA Script Version 5", where ECMA refers to the Europe
   "Methods" : Things it can do like browse,buildPorjects,Play,Games,Watchmovies
 
              ## Object / method / Function
-
-
 
 item ={ Object
 name: 'Google phone',
