@@ -121,5 +121,77 @@ Markup : Math.sqrt()
 
 ## DATE METHODS
 
+.getFullYear()
+.getMonth()
+.getDate()
+.getDay()
+.getHours()
+.getMinutes()
+.getSecods()
+.getTime()
+.getMilliseconds()
+.setFullYear()
+.setMonth()
+.setMonth()
+.setDate()
+.setHours()
+.setMinutes()
+.setSeconds()
+.setTime()
+.setMilliseconds()
+
+
+## PROMISE METHODS
+Promise.all()
+Promise.race()
+Promise.resolve()
+Promise.reject()
+
+.then()
+.catch()
+.finally
+
+
+## EVENTS
+
+onchange
+onclick
+onmouseover
+onmouseout
+onkeydown
+onload
+
+
+## FUNCTION TYPES
+
+Anonymous Fun
+Regular Fun
+Arrow Fun
+
+
+IIFE
+Callback Fun
+Higher Order Fun
+
+
+
+## MISCELLANEOUS
+
+setTimeout()
+clearTimeout()
+setInterval()
+clearInterval()
+parseInt()
+ParseFloat()
+Json.stringify()
+JSON.parse()
+typeof
+instanceof
+
+
+
+
+
+
 
 
