@@ -1,1 +1,1 @@
-console.log([].toString());
+ var x;
