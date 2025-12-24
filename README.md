@@ -1,5 +1,51 @@
 ## JavaScript
 
+
+JavaScript task priorities (simplified)
+JavaScript uses an event loop with different queues:
+
+1️⃣ Call Stack (highest priority)
+Synchronous code runs here
+
+console.log("A");
+2️⃣ Microtask Queue (very high priority)
+Promises (.then, catch, finally)
+
+queueMicrotask
+
+MutationObserver
+
+These run after the current call stack is empty, before any macrotasks.
+
+Promise.resolve().then(() => console.log("Promise"));
+3️⃣ Macrotask (Task) Queue (lower priority)
+setTimeout
+
+setInterval
+
+setImmediate
+
+I/O callbacks
+
+setTimeout(() => console.log("Timeout"), 0);
+Execution order example
+console.log("Start");
+
+setTimeout(() => console.log("Timeout"), 0);
+
+Promise.resolve().then(() => console.log("Promise"));
+
+console.log("End");
+Output:
+Start
+End
+Promise
+Timeout
+
+
+
+
+
 ## 04-03-2025
 
 Promise:A Promise is in one of these states: (Promise Code Folder)
