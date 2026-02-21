@@ -1,10 +1,16 @@
-const original = [1, 2, 3];
-const copy = original;
+// const original = [1, 2, 3];
+// const copy = original;
 
-function clear(arr) {
-  arr = [];
+// function clear(arr) {
+//   arr = [];
+// }
+
+// clear(original);
+
+// console.log(original, copy);
+
+
+for (let i = 1; i <= 3; i++)
+{
+    console.write(i);
 }
-
-clear(original);
-
-console.log(original, copy);
